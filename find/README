@@ -1,0 +1,5 @@
+Assmbly implementation of simple find command. Program check whether file 
+exists in a file system, or in case of a directory list all its content 
+recursively. 
+
+Usage : find [path/to/your/file/or/directory]
