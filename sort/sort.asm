@@ -1,3 +1,10 @@
+;	Low-level quick-sort 
+;
+;	void sort(long * data, unsigned long len)
+;
+;	author : Andrzej Gluszynski
+
+
 BITS        64
       SECTION     .text
       GLOBAL      sort
