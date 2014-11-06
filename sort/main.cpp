@@ -3,13 +3,11 @@ using namespace std;
 
 extern "C" void sort(long * data, unsigned long count);
 
-long data[1000000000];
-
 int main()
 {
   unsigned long count;  
   scanf("%lu", &count);
-  //long data[count];
+  long data[count];
   for (int i=0; i<count; ++i)
     scanf("%ld", &data[i]);
   sort(data, count);
